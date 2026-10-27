@@ -1,0 +1,232 @@
+.estiloheader {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.textoinicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo-principal {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+.subtitulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    color: #f1f1f1;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+.navbar-custom {
+    background-color: #f3c653;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #000000;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ffffff;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.cardp {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../img/blog-segredo-1.png');
+}
+
+.cardpr {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../img/premium_photo-1673108852141-e8c3c22a4a22.jpg');
+}
+
+.carddc {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../img/1_doce-38261706.jpg');
+}
+
+.cardb {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../img/mulheres-bebendo-refrigerantes-cola-suco-de-laranja-fresco-e-limonada-com-palhinhas-coloridas_141793-12573.jpg');
+}
+
+.cardastro {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../img/amigos-alegres-se-divertindo-enquanto-falam-com-um-garcom-em-um-cafe_637285-12509.jpg');
+}
+
+main {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.main-inicial {
+    min-height: calc(100vh - 56px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    flex-direction: column;
+}
+
+.mains {
+    min-height: calc(100vh - 56px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.bebidas {
+    min-height: calc(100vh - 56px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.cardsup {
+    min-height: calc(100vh - 56px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.caixa {
+    background-color: rgb(32, 33, 33);
+    color: rgb(244, 244, 244);
+    width: 650px;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid burlywood;
+}
+
+.caixa2 {
+    background-color: rgb(32, 33, 33);
+    color: rgb(244, 244, 244);
+    width: 300px;
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid burlywood;
+    font-size: 20px;
+}
+
+.carda {
+    background-color: rgb(32, 33, 33);
+    color: rgb(244, 244, 244);
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid burlywood;
+    font-size: 18px;
+}
+
+
+.carouselcainna {
+    width: 700px;
+    max-width: calc(100% - 80px);
+    margin-top: 40px;
+}
+
+.carousel-control-next {
+    right: -35px;
+}
+
+.carousel-control-prev {
+    left: -35px;
+}
+
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.carousel-control-prev-icon {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .titulo-principal {
+        font-size: 2.5rem;
+    }
+
+    .subtitulo {
+        font-size: 1rem;
+    }
+
+    .carouselcainna {
+        width: 90%;
+        max-width: 90%;
+    }
+
+    .carousel-control-prev {
+        left: -25px;
+    }
+
+    .carousel-control-next {
+        right: -25px;
+    }
+
+    .carda {
+        font-size: 16px;
+        padding: 15px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .titulo-principal {
+        font-size: 2rem;
+    }
+
+    .subtitulo {
+        font-size: 0.9rem;
+    }
+
+    .carouselcainna {
+        width: 90%;
+        max-width: 90%;
+        margin-top: 30px;
+    }
+
+    .carousel-control-prev {
+        left: -20px;
+    }
+
+    .carousel-control-next {
+        right: -20px;
+    }
+
+    .carda {
+        font-size: 15px;
+        padding: 12px;
+    }
+}

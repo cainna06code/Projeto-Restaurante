@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="cardastro">
+ <header>
+     <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+
+    <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse"
+         data-bs-target="#menuNavegacao">
+     <span class="navbar-toggler-icon"></span>
+    </button>
+
+     <div class="collapse navbar-collapse" id="menuNavegacao">
+
+     <div class="navbar-nav ms-auto">
+
+         <a class="nav-link" href="index.html">Inicio</a>
+
+    <a class="nav-link" href="pagina2.html">
+       Cardápio padrão
+     </a>
+
+     <a class="nav-link" href="pagina3.html">
+          Cardápio de bebidas
+    </a>
+
+     <a class="nav-link" href="pagina4.html">
+      Cardápio de doces
+     </a>
+
+    <a class="nav-link" href="pagina5.html">
+       Cadastre-se
+     </a>
+      </div>
+     </div>
+    </div>
+</nav>
+</header>
+<div class="row">
+        <div class="col-3 text-center"></div>
+        <div class="col-6">
+            <div class="container text-center pt-5 pb-5 text-light">
+                <h2 class="mt-4">Cadastro</h2>
+                <h6>
+                    Crie sua conta para transformar sua experiência gastronômica em algo ainda mais especial.
+                     Ao se cadastrar em nosso site, você garante acesso imediato a uma série de benefícios VIP,
+                      como a facilidade de fazer reservas com prioridade para garantir sua mesa nos dias mais concorridos sem filas de espera,
+                       descontos exclusivos e cupons mensais para saborear seus pratos favoritos pagando menos.
+                        Além disso, membros cadastrados acumulam pontos no nosso programa de fidelidade que podem ser trocados por pratos e sobremesas,
+                         além de receberem cortesias especiais para celebrar o aniversário.
+                     Preencha os campos a seguir e faça parte do nosso clube de vantagens!
+                </h6>
+            </div>
+
+            <div class="container carda">
+                <form class="form" action="#">
+                    <label for="nome">Nome completo: </label>
+                    <input class="form-control" type="text" name="nome" id="nome"
+                    placeholder="Fulano Silva Pereira">
+
+                    <label class="mt-4" for="data">Data de Nascimento: </label>
+                    <input class="form-control" type="date" name="data" id="data">
+
+                     <label class="mt-4" for="email">Email: </label>
+                    <input class="form-control" type="email" name="email" id="email"
+                    placeholder="exemplo@gmail.com">
+
+                     <label class="mt-4" for="data">Telefone: </label>
+                    <input class="form-control" type="number" name="telefone" id="telefone"
+                    placeholder="19-XXXX-XXXX" >
+
+                
+                    <label class="mt-4" for="sistemas">Como nos conheceu?: </label><br>
+
+                    <input type="checkbox" name="site1" id="site1" value="SiteGourmetsy">Site da Gourmetsy<br>
+                    <input type="checkbox" name="site2" id="site2" value="Redessocias">Redes Socias<br>
+                    <input type="checkbox" name="site3" id="site3" value="Indicaçãodeamigo">Indicação de amigo<br>
+                    <input type="checkbox" name="site4" id="site4" value="Outros">Outros<br>
+
+
+                     <label class="mt-4" for="data">Qual o seu prato favorito:</label>
+                    <input class="form-control mt-1" type="text" name="observações" id="observações">
+                     <input class="btn btn-primary mt-2" type="submit" value="Enviar" id="btnEnviar" name="btnEnviar">
+                    <input class="btn btn-secondary mt-2" type="reset" value="Limpar" id="btnLimpar" name="btnLimpar">
+
+                     </form>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
